@@ -1,0 +1,26 @@
+
+#import <Foundation/Foundation.h>
+#import "DeviceConfig.h"
+
+// ipod5 screen
+#define IPOD5_iOS6_SCREEN_WIDTH 320
+#define IPOD5_iOS6_SCREEN_HEIGHT 568
+
+// ipod5 PresetPhoto with reduce
+#define IPOD5_iOS6_PREVIEW_BUFFER_WIDTH 852
+#define IPOD5_iOS6_PREVIEW_BUFFER_HEIGHT 640
+#define IPOD5_iOS6_PREVIEW_BUFFER_PADDING 12
+#define IPOD5_iOS6_PREVIEW_REDUCE_RATE 2
+#define IPOD5_iOS6_PREVIEW_REDUCED_WIDTH 320
+#define IPOD5_iOS6_PREVIEW_REDUCED_HEIGHT 426
+#define IPOD5_iOS6_PREVIEW_REDUCED_PIXELS (320*426)
+#define IPOD5_iOS6_PREVIEW_ORIGINAL_PIXELS (852*640)
+#define IPOD5_iOS6_PREVIEW_REDUCED_SIZE ((426 * 320) * 4)
+#define IPOD5_iOS6_PREVIEW_REDUCER_SIZE ((426 * 320) * 4)
+#define IPOD5_iOS6_PREVIEW_NON_ALPHE 255
+
+// point spreader
+#define IPOD5_IOS6_POINT_SPREAD_SIZE 8
+
+@interface DeviceConfig_iPod5_iOS6 : DeviceConfig
+@end

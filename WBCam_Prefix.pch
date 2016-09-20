@@ -1,0 +1,29 @@
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+#endif
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+// stop nslog >>>
+///*
+#if !defined(NS_BLOCK_ASSERTIONS)
+
+#if !defined(NSLog)
+#define NSLog( args... ) NSLog( args, 0 )
+#endif
+
+#else
+
+#if !defined(NSLog)
+#define NSLog( args... )
+#endif
+
+#endif
+//*/
+// <<< stop nslog

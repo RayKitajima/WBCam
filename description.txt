@@ -1,0 +1,40 @@
+
+[WBCam]
+
+The manual white balance camera.
+Simply double tap on your live view where should be white or gray.
+Of course it's realtime. All what you see is what you get.
+No more yellowing/bluish photos.
+
+Camera Function:
+
+* Tap to select focus and exposure point.
+* Double tap to select white or gray point there should be achromatic.
+* Hold to lock exposure and focus.
+* Swipe to cancel white balance, exposure and focus lock.
+
+- No digital zoom.
+- No torch and flash. (due to incompatibility for manual white balance)
+
+Album Function:
+
+* Photos are automatically split by date.
+* Export to default camera roll.
+* Optionally you can select a photo having white or gray area on its center to adjust white balance manually.
+
+Hardware requirement:
+
+* iPhone 4 or iPhone 4S
+
+iOS requirement:
+
+* iOS5 or later
+
+
+[Capture images]
+
+1. Live view capture including some gray area.
+2. Result of double tapping at the gray area
+3. Album thumbnail view.
+4. Album photo view.
+
